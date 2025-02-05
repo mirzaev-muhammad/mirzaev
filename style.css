@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .header {
+    background-image: url("img/header-bg.png");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .navbar {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+  }
+  
+  .navbar-menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .navbar-btn {
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 12px 31px;
+    background-color: inherit;
+    color: #fff;
+  }
+  
+  .btn-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .btn-menu{
+    border: 1px solid #fff;
+    border-radius: 6px;
+    padding: 6px 8px;
+    background-color: inherit;
+  }
+  
+  .btn-menu img{
+    width: 25px;
+  }
+  
+  .promo {
+    color: #fff;
+    text-align: center;
+    padding: 140px 0 190px;
+  }
+  
+  .promo-title {
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+  
+  .promo-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    width: 50%;
+    margin: 40px auto;
+  }
+  
+  .promo-btn {
+    border-radius: 6px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #ed4c5c;
+    padding: 16px 30px;
+    border: none;
+  }
+  
+  .sec-1 {
+    margin: 95px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sec-1-text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sec-1-img {
+    width: 50%;
+  }
+  .sec-1-img img {
+    width: 100%;
+  }
+  
+  .sec-1-title {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+  .sec-1-text .paragraph-14 {
+    margin-bottom: 20px;
+  }
+  
+  .paragraph-14 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    text-align: justify;
+  }
+  
+  .sec-1-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #ed4c5c;
+    text-decoration: none;
+  }
+  
+  .sec-2 {
+    margin: 60px 0 120px;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  .card-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 65px;
+  }
+  
+  .card img {
+    width: 100%;
+  }
+  
+  .card-text {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: -40px;
+    padding: 25px 20px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .card-title {
+    font-weight: 500;
+    font-size: 18px;
+  }
+  .card-p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+  }
+  .card-link {
+    font-weight: 400;
+    font-size: 12px;
+    color: #ed4c5c;
+  }
+  
+  .tech {
+    margin: 60px 0 100px;
+  }
+  
+  .tech-cards-flex {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+  }
+  
+  .tech-card {
+    text-align: center;
+  }
+  
+  .tech-card img {
+    width: 50%;
+  }
+  
+  .tech-card-title {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #101010;
+  }
+  
+  .tech-card-p {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 12px;
+    color: #000;
+  }
+  
+  .contact {
+    margin: 150px 0 170px;
+  }
+  
+  .contact .container {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-text {
+    width: 40%;
+  }
+  
+  .contact-text .title {
+    margin-bottom: 60px;
+    text-align: left;
+  }
+  
+  .contact-form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 24px;
+  }
+  
+  .contact-form input {
+    padding: 21px 30px;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 6px;
+  }
+  
+  .contact-form button {
+    border: 1.5px solid #ed4c5c;
+    border-radius: 6px;
+    background: #ed4c5c;
+    color: #fff;
+    padding: 17px 40px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .check{
+    display: none;
+  }
+  
+  .check:checked ~ .navbar-menu{
+    transform: translate(0);
+  }
+  
+  
+  .btn-menu{
+    display: none;
+  }
+  
+  @media (max-width: 1080px) {
+    .navbar-menu{
+      flex-direction: column;
+      width: 300px;
+      position: absolute; 
+      background-color: #ed4c5c;
+      top: 0;
+      left: 0;
+      height: 100%;
+      text-align: center;
+      padding-top: 40px;
+      font-size: 18px;
+      transform:  translateX(-100%);
+      transition: 0.3s;
+    }
+  
+    .btn-menu{
+      display: block;
+    }
+  
+  
+  
+    .sec-1 {
+      flex-direction: column;
+      gap: 50px;
+    }
+  
+    .sec-1-text {
+      width: 100%;
+    }
+    .sec-1-img {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .promo-title {
+      font-size: 56px;
+    }
+  
+    .promo-text {
+      width: 90%;
+      font-size: 18px;
+    }
+  
+    .card-flex {
+      flex-direction: column;
+    }
+  
+    .card {
+      width: 50%;
+      margin: 0 auto;
+    }
+  
+    .tech-cards-flex {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .card {
+      width: 80%;
+    }
+  
+    .contact .container {
+      flex-direction: column;
+    }
+  
+    .contact-text {
+      width: 100%;
+    }
+  
+    .contact-form {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .promo-title {
+      font-size: 42px;
+    }
+    .promo-text {
+      width: 100%;
+      font-size: 16px;
+    }
+    .card {
+      width: 100%;
+    }
+  
+    .tech-cards-flex {
+      grid-template-columns: 1fr;
+    }
+  }
